@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Site du groupe The Arcadian's"
+      directory="profiles/default"
+      description="Installs profile for Site du groupe The Arcadian's"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

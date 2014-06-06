@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object name="portal_skins"
+        allow_any="False"
+        cookie_persistence="False"
+        default_skin="Site du groupe The Arcadian's">
+
+    <object name="thearcadians_theme_images"
+            meta_type="Filesystem Directory View"
+            directory="thearcadians.theme:skins/thearcadians_theme_images"/>
+
+    <skin-path name="Site du groupe The Arcadian's"
+               based-on="Sunburst Theme">
+        <layer name="thearcadians_theme_images"
+               insert-after="custom"/>
+
+    </skin-path>
+
+</object>

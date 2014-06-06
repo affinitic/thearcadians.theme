@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<layers>
+    <layer name="thearcadians.theme"
+           interface="thearcadians.theme.interfaces.ICustomTheme" />
+</layers>
