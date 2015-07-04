@@ -55,7 +55,6 @@
     <!--
     <replace css:content-children="#portal-colophon"
              css:theme-children="#colophon" />
-
     <replace css:content-children="#portal-footer"
              css:theme-children="#footer" />
     -->
